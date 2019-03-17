@@ -20,7 +20,7 @@ Education
 Work experience
 ======
 
-* Research Scientist, Siemens Healthineers, Nrnberg, Germany, 2018-present
+* Research Scientist, Siemens Healthineers, Nürnberg, Germany, 2018-present
 * Teaching Assistant, Radboud University, Nijmegen, The Netherlands, 2015-2016
 * Graduate Research Intern, Philips Research, Eindhoven, The Netherlands, 2012-2013
 * Researcher, Versatile Silicon Technologies, Bandung, Indonesia, 2010-2011
