@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+If you wish to read my curriculum vitae, feel free to download it [here](https://arnaudsetio.github.io/files/cv_arnaudsetio.pdf).
+
 Education
 ======
 * PhD, Radboud University Medical Center, Nijmegen, The Netherlands, 2013-2018
@@ -22,3 +24,6 @@ Work experience
 * Teaching Assistant, Radboud University, Nijmegen, The Netherlands, 2015-2016
 * Graduate Research Intern, Philips Research, Eindhoven, The Netherlands, 2012-2013
 * Researcher, Versatile Silicon Technologies, Bandung, Indonesia, 2010-2011
+
+
+
