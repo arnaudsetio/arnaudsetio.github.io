@@ -1,6 +1,6 @@
 ---
 title: "Development and validation of lung nodule detection algorithms in chest CT"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/nodule_detection.png'>"
+excerpt: "Lung cancer is an aggressive disease resulting in more than one million deaths per year worldwide. In this project, novel nodule detection algorithms were developed.<br/><img src='/images/nodule_detection.png'>"
 collection: portfolio
 ---
 
