@@ -10,5 +10,5 @@ Within this project, novel Computer-Aided Detection (CAD) systems for pulmonary 
 
 ## Publications
 
-1. A.A.A. Setio, F. Ciompi, G. Litjens, P. Gerke, C. Jacobs, S. van Riel, M.W. Wille, M. Naqibullah, C. S´anchez and B. van Ginneken. ”Pulmonary nodule detection in CT images: false positive reduction using multi-view convolutional networks”, IEEE Transactions on Medical Imaging, 35(5):1160-1169, 2016. [<img src='/images/doi.png' width='20' height='20'>](https://doi.org/10.1109/TMI.2016.2536809)
-2. A.A.A. Setio, C. Jacobs, J. Gelderblom and B. van Ginneken. ”Automatic detection of large pulmonary solid nodules in thoracic CT images”, Medical Physics, 42:5642-5653, 2015.
+1. A.A.A. Setio, F. Ciompi, G. Litjens, P. Gerke, C. Jacobs, S. van Riel, M.W. Wille, M. Naqibullah, C. S´anchez and B. van Ginneken. ”Pulmonary nodule detection in CT images: false positive reduction using multi-view convolutional networks”, IEEE Transactions on Medical Imaging, 35(5):1160-1169, 2016. [<img src='/images/doi.png' width='16' height='16'>](https://doi.org/10.1109/TMI.2016.2536809)
+2. A.A.A. Setio, C. Jacobs, J. Gelderblom and B. van Ginneken. ”Automatic detection of large pulmonary solid nodules in thoracic CT images”, Medical Physics, 42:5642-5653, 2015. [<img src='/images/doi.png' width='16' height='16'>](https://doi.org/10.1118/1.4929562)
