@@ -1,6 +1,6 @@
 ---
 title: "Development of lung nodule detection algorithms in chest CT"
-excerpt: "Automatic detection of lung nodules using pattern recognition and deep learning algorithms<br/><img src='/images/nodule_det_architecture.PNG' width='900' class='center'>"
+excerpt: "Automatic detection of lung nodules using pattern recognition and deep learning algorithms<br/><img src='/images/nodule_det_architecture.PNG' width='800' class='center'>"
 collection: portfolio
 ---
 
