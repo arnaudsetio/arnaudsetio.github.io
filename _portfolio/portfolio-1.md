@@ -1,7 +1,9 @@
 ---
-title: "Development and validation of lung nodule detection algorithms in chest CT"
-excerpt: "Lung cancer is an aggressive disease resulting in more than one million deaths per year worldwide. In this project, novel nodule detection algorithms were developed.<br/><img src='/images/nodule_detection.png'>"
+title: "Development of lung nodule detection algorithms in chest CT"
+excerpt: "Automatic detection of lung nodules using pattern recognition and deep learning algorithms.<br/><img src='/images/nodule_detection.png'>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+Lung cancer is the leading cause of cancer death worldwide. Currently, only 15% of all diagnosed lung cancers are detected at an early stage, which causes a five-year survival rate of only 16%. The aim of screening is to detect cancers in an earlier stage when curative treatment options are better.
+
+Within this project, novel Computer-Aided Detection (CAD) systems for pulmonary nodules were developed and evaluated. The results were reported through a number of publications which are listed below and summarized in my PhD Thesis.
