@@ -8,7 +8,7 @@ Automatic detection of pulmonary nodules in thoracic computed tomography (CT) sc
 
 <img src='/images/luna16_froc.PNG' width='900' class='center'>
 
-Within this project, we have set up the LUNA16 challenge, an objective evaluation framework for automatic nodule detection algorithms using the largest publicly available reference database of chest CT scans, the LIDC-IDRI data set.  The results were presented through a publication listed below and summarized in my [PhD Thesis](https://www.dropbox.com/s/psqn80ez225ir7l/thesis_arnaud.pdf?dl=0).
+Within this project, we have set up the [LUNA16 challenge](https://luna16.grand-challenge.org/), an objective evaluation framework for automatic nodule detection algorithms using the largest publicly available reference database of chest CT scans, the LIDC-IDRI data set.  The results were presented through a publication listed below and summarized in my [PhD Thesis](https://www.dropbox.com/s/psqn80ez225ir7l/thesis_arnaud.pdf?dl=0).
 
 ## Publications
 
