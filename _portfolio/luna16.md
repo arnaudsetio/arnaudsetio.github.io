@@ -4,11 +4,11 @@ excerpt: "Evaluation of algorithms for automatic detection of lung nodules<br/><
 collection: portfolio
 ---
 
-Lung cancer is the leading cause of cancer death worldwide. Currently, only 15% of all diagnosed lung cancers are detected at an early stage, which causes a five-year survival rate of only 16%. The aim of this project is to automatically detect cancers in an earlier stage when curative treatment options are better.
+Automatic detection of pulmonary nodules in thoracic computed tomography (CT) scans has been an active area of research for the last two decades. However, there have only been few studies that provide a comparative performance evaluation of different systems on a common database. The evaluation of different systems using the same framework provides unique information that can be leveraged to further improve the existing systems and develop novel solutions.
 
 <img src='/images/luna16_froc.PNG' width='900' class='center'>
 
-Within this project, novel Computer-Aided Detection (CAD) systems for pulmonary nodules were developed and evaluated. The results were presented through a number of publications listed below and summarized in my [PhD Thesis](https://www.dropbox.com/s/psqn80ez225ir7l/thesis_arnaud.pdf?dl=0).
+Within this project, we have set up the LUNA16 challenge, an objective evaluation framework for automatic nodule detection algorithms using the largest publicly available reference database of chest CT scans, the LIDC-IDRI data set.  The results were presented through a publication listed below and summarized in my [PhD Thesis](https://www.dropbox.com/s/psqn80ez225ir7l/thesis_arnaud.pdf?dl=0).
 
 ## Publications
 
