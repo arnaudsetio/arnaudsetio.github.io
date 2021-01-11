@@ -1,6 +1,6 @@
 ---
 title: "Validation, comparison, and combination of algorithms for automatic detection of pulmonary nodules in CT images"
-excerpt: "Large-scale evaluation of algorithms for automatic detection of lung nodules through LUNA16 challenge. The LUNA16 challenge has been used by at least 9000 users. <br/><img src='/images/luna16.jpg' width='750' class='center'>"
+excerpt: "Large-scale evaluation of algorithms for automatic detection of lung nodules. <br/><img src='/images/luna16_froc.PNG' width='750' class='center'>"
 collection: portfolio
 ---
 
