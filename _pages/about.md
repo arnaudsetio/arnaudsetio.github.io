@@ -12,4 +12,4 @@ Arnaud Arindra Adiyoso Setio is a research scientist at [Siemens Healthineers](h
 
 During his free time, he is actively involved in music ensembles, mostly orchestra, and angklung. He was a conductor of Nusantara Student Ensemble (string) and [Angklung Eindhoven](http://www.angklungeindhoven.com/).
 
-Research interest: deep learning, computer vision, video processing, image processing, digital electronic design, computer architecture
+Research interest: deep learning, image processing, computer-aided-diagnosis, computer vision, video processing, digital electronic design, computer architecture
