@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-If you wish to read my curriculum vitae, feel free to download it [here](https://arnaudsetio.github.io/files/cv_arnaudsetio_2019.pdf).
+If you wish to read my curriculum vitae, feel free to download it [here](https://arnaudsetio.github.io/files/cv_arnaudsetio_2021.pdf).
 
 Education
 ======
