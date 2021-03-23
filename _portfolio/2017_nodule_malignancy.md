@@ -8,7 +8,7 @@ Early stage lung cancer manifests itself as focal abnormalities in the lung call
 
 <p align='center'><img src='/images/nodule_malignancy.PNG' width='700'></p>
 
-Within this project, develop and validate a deep learning algorithm based on convolutional neural networks for pulmonary nodule malignancy prediction and to compare its performance against expert readers and an established multivariate prediction model. The results were summarized in my [PhD Thesis](https://www.dropbox.com/s/psqn80ez225ir7l/thesis_arnaud.pdf?dl=0).
+Within this project, we develop and validate a deep learning algorithm based on convolutional neural networks for pulmonary nodule malignancy prediction and to compare its performance against expert readers and an established multivariate prediction model. The results were summarized in my [PhD Thesis](https://www.dropbox.com/s/psqn80ez225ir7l/thesis_arnaud.pdf?dl=0).
 
 ## Publications
 
