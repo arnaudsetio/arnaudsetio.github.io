@@ -1,6 +1,6 @@
 ---
 title: "Pulmonary nodules malignancy prediction in CT images"
-excerpt: "Automatic lung nodule malignancy prediction using deep learning. <br/><p align='center'><img src='/images/nodule_malignancy.PNG' width='750'></p>"
+excerpt: "Automatic lung nodule malignancy prediction using deep learning. <br/><img src='/images/nodule_malignancy.PNG' width='750'>"
 collection: portfolio
 ---
 
