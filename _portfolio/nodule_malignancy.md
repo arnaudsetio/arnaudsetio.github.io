@@ -4,7 +4,7 @@ excerpt: "Automatic lung nodule malignancy prediction using deep learning. <br/>
 collection: portfolio
 ---
 
-Early stage lung cancer manifests itself as focal abnormalities in the lung called pulmonary nodules. The vast majority of nodules found in screening participants are eventually benign. Estimating the malignancy risk of individual nodules is difficult. Follow-up of benign nodules can lead to unnecessary imaging or invasive follow-up procedures. A data-driven model that can accurately predict nodule malignancy from CT data may improve management decisions and increase the effectiveness of lung cancer screening programs.
+Early stage lung cancer manifests itself as focal abnormalities in the lung called pulmonary nodules. The vast majority of nodules found in screening participants are eventually benign. Follow-up of benign nodules can lead to unnecessary imaging or invasive follow-up procedures. A data-driven model that can accurately predict nodule malignancy from CT data may improve management decisions and increase the effectiveness of lung cancer screening programs.
 
 <img src='/images/nodule_malignancy.PNG' width='700' class='center'>
 
