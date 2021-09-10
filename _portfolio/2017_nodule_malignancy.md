@@ -12,5 +12,5 @@ Within this project, we develop and validate a deep learning algorithm based on 
 
 ## Publications
 
-1. K. V. Venkadesh, A. A. A. Setio, A. Schreuder, E. T. Scholten, K. Chung, M. M. W. Wille, Z. Saghir,B. van Ginneken, M. Prokop, and C. Jacobs, “Deep learning for malignancy risk estimation of pulmonarynodules detected at low-dose screening ct,” Radiology, vol. 300, no. 2, pp. 438–447, 2021 [link](https://doi.org/10.1148/radiol.2021204433)
+1. K. V. Venkadesh, A. A. A. Setio, A. Schreuder, E. T. Scholten, K. Chung, M. M. W. Wille, Z. Saghir,B. van Ginneken, M. Prokop, and C. Jacobs, “Deep learning for malignancy risk estimation of pulmonary nodules detected at low-dose screening CT,” Radiology, vol. 300, no. 2, pp. 438–447, 2021 [link](https://doi.org/10.1148/radiol.2021204433)
 2. A.A.A. Setio, ”Computer-aided diagnosis in thoracic CT scans for lung cancer screening”, 2018. [link](https://www.dropbox.com/s/psqn80ez225ir7l/thesis_arnaud.pdf?dl=0)
