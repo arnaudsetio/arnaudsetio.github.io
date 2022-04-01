@@ -8,7 +8,7 @@ Image-based patient-specific modeling of hemodynamics is gaining increased popul
 
 <p align='center'><img src='/images/articardio.png' width='700'></p>
 
-In this proof-of-concept study, we present a deep artificial neural network (ANN) capable of computing hemodynamics for patients with aortic coarctation in a centerline aggregated (i.e., locally averaged) form. Considering the complex relation between vessels shape and hemodynamics on the one hand and the limited availability of suitable clinical data on the other, sufficient accuracy of the ANN may not be achieved with available data only. Therefore another key aspect of this study is the successful augmentation of available clinical data. Using a statistical shape model, additional training data was generated, which substantially increased the ANNs accuracy, showcasing ML-based methods' ability to perform in-silico modeling tasks previously requiring resource-intensive CFD simulations.
+In this proof-of-concept study, we present a deep artificial neural network (ANN) capable of computing hemodynamics for patients with aortic coarctation in a centerline aggregated (i.e., locally averaged) form. Considering the complex relation between vessels shape and hemodynamics, sufficient accuracy of the ANN may not be achieved with available data only. Therefore another key aspect of this study is the successful augmentation of available clinical data. Using a statistical shape model, additional training data was generated, which substantially increased the ANNs accuracy, showcasing ML-based methods' ability to perform in-silico modeling tasks previously requiring resource-intensive CFD simulations.
 
 ## Publications
 
