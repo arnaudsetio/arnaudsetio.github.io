@@ -12,7 +12,9 @@ These algorithms are integrated into the bleeding-edge [AI Rad Companion researc
 
 ## Publications
 
-1. A.A.A. Setio, F. Ciompi, G. Litjens, P. Gerke, C. Jacobs, S. van Riel, M.W. Wille, M. Naqibullah, C. Sánchez and B. van Ginneken. ”Pulmonary nodule detection in CT images: false positive reduction using multi-view convolutional networks”, IEEE Transactions on Medical Imaging, 35(5):1160-1169, 2016. [<img src='/images/doi.png' width='16' height='16'>](https://doi.org/10.1109/TMI.2016.2536809)
-2. A.A.A. Setio, C. Jacobs, J. Gelderblom and B. van Ginneken. ”Automatic detection of large pulmonary solid nodules in thoracic CT images”, Medical Physics, 42:5642-5653, 2015. [<img src='/images/doi.png' width='16' height='16'>](https://doi.org/10.1118/1.4929562)
+1. S. Liu, A. A. A. Setio, F. C. Ghesu, E. Gibson, S. Grbic, B. Georgescu, and D. Comaniciu. ”No surprises: Training
+robust lung nodule detection for low-dose CT scans by augmenting with adversarial attacks”, IEEE Transactions on
+Medical Imaging, 40(1):335-345, 2021. [<img src='/images/doi.png' width='16' height='16'>](https://doi.org/10.1109/TMI.2020.3026261)
+
 
 
