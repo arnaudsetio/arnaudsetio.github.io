@@ -12,7 +12,7 @@ These algorithms are integrated into the bleeding-edge [AI Rad Companion researc
 
 ## Publications
 
-1. . A. A. Setio, A. Aichert, M. Teichmann, T. Heimann. ”Methods and systems for providing molecular data based on ct images” U.S. Patent No. US20230230704A1. United States Patent and Trademark Office. [https://patents.google.com/patent/US20230230704A1/en](https://patents.google.com/patent/US20230230704A1/en)
+1. A. A. A. Setio, A. Aichert, M. Teichmann, T. Heimann. ”Methods and systems for providing molecular data based on ct images” U.S. Patent No. US20230230704A1. United States Patent and Trademark Office. [https://patents.google.com/patent/US20230230704A1/en](https://patents.google.com/patent/US20230230704A1/en)
 2. S. Liu, Y. Li, A. A. A. Setio, B. Georgescu, S. Grbic ,Z. Qiu, Z. Shen. ”Classifying a lesion based on longitudinal studies” U.S. Patent No. US20230230704A1. United States Patent and Trademark Office. [https://patents.google.com/patent/US20230230704A1/en](https://patents.google.com/patent/US20230230704A1/en)
 3. S. Liu, A. A. A. Setio, F. C. Ghesu, E. Gibson, S. Grbic, B. Georgescu, and D. Comaniciu. ”No surprises: Training
 robust lung nodule detection for low-dose CT scans by augmenting with adversarial attacks”, IEEE Transactions on
