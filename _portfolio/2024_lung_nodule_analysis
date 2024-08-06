@@ -1,0 +1,11 @@
+---
+title: "Comprehensive chest CT analysis for lung cancer screening"
+excerpt: "Industrial scale automatic analysis of lung nodules <br/><img src='/images/airc.png' width='750'>"
+collection: portfolio
+---
+
+We developed high-performing algorithms for comprehensive chest CT scan analysis in lung cancer screening. Our solutions excel in detecting and characterizing lung nodules, predicting malignancy, and segmenting lesions.
+
+<img src='/images/pulmo.PNG' width='900' class='center'>
+
+These algorithms are integrated into the bleeding-edge [AI Rad Companion research version](https://www.siemens-healthineers.com/digital-health-solutions/ai-rad-companion) by Siemens Healthineers.
