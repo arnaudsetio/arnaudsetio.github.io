@@ -12,8 +12,9 @@ These algorithms are integrated into the bleeding-edge [AI Rad Companion researc
 
 ## Publications
 
-1. S. Liu, Y. Li, A. A. A. Setio, B. Georgescu, S. Grbic ,Z. Qiu, Z. Shen. ”Classifying a lesion based on longitudinal studies” U.S. Patent No. US20230230704A1. United States Patent and Trademark Office. [https://patents.google.com/patent/US20230230704A1/en](https://patents.google.com/patent/US20230230704A1/en)
-1. S. Liu, A. A. A. Setio, F. C. Ghesu, E. Gibson, S. Grbic, B. Georgescu, and D. Comaniciu. ”No surprises: Training
+1. . A. A. Setio, A. Aichert, M. Teichmann, T. Heimann. ”Methods and systems for providing molecular data based on ct images” U.S. Patent No. US20230230704A1. United States Patent and Trademark Office. [https://patents.google.com/patent/US20230230704A1/en](https://patents.google.com/patent/US20230230704A1/en)
+2. S. Liu, Y. Li, A. A. A. Setio, B. Georgescu, S. Grbic ,Z. Qiu, Z. Shen. ”Classifying a lesion based on longitudinal studies” U.S. Patent No. US20230230704A1. United States Patent and Trademark Office. [https://patents.google.com/patent/US20230230704A1/en](https://patents.google.com/patent/US20230230704A1/en)
+3. S. Liu, A. A. A. Setio, F. C. Ghesu, E. Gibson, S. Grbic, B. Georgescu, and D. Comaniciu. ”No surprises: Training
 robust lung nodule detection for low-dose CT scans by augmenting with adversarial attacks”, IEEE Transactions on
 Medical Imaging, 40(1):335-345, 2021. [<img src='/images/doi.png' width='16' height='16'>](https://doi.org/10.1109/TMI.2020.3026261)
 
