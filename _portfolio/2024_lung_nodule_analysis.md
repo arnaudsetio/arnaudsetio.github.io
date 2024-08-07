@@ -7,6 +7,9 @@ collection: portfolio
 We developed high-performing algorithms for comprehensive chest CT scan analysis in lung cancer screening. Our solutions excel in detecting and characterizing lung nodules, predicting malignancy, and segmenting lesions.
 
 <img src='/images/pulmo.png' width='900' class='center'>
+<div align="center">
+<p><small>image courtesy of Siemens Healthineers AG</small></p>
+</div>
 
 These algorithms are integrated into the bleeding-edge [AI Rad Companion research version](https://www.siemens-healthineers.com/digital-health-solutions/ai-rad-companion) by Siemens Healthineers.
 
