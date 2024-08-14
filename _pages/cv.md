@@ -20,7 +20,8 @@ Education
 Work experience
 ======
 
-* Research Scientist, Siemens Healthineers, Erlangen, Germany, 2018-present
+* Research Scientist, Lunit Inc., Germany, 2024-present
+* Research Scientist, Siemens Healthineers, Erlangen, Germany, 2018-2024
 * Teaching Assistant, Radboud University, Nijmegen, The Netherlands, 2015-2016
 * Graduate Research Intern, Philips Research, Eindhoven, The Netherlands, 2012-2013
 * Researcher, Versatile Silicon Technologies, Bandung, Indonesia, 2010-2011
