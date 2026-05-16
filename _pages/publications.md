@@ -5,8 +5,32 @@ permalink: /publications/
 author_profile: true
 ---
 
-For a complete list of publications, please check my [Google Scholar](https://scholar.google.nl/citations?user=TxLhvpcAAAAJ).
+{% include base_path %}
 
-# Thesis
+Also available on [Google Scholar](https://scholar.google.nl/citations?user=TxLhvpcAAAAJ) and [ORCID](https://orcid.org/0000-0002-5447-4434).
 
-Computer-aided diagnosis in thoracic CT scans for lung cancer screening ([pdf](https://www.dropbox.com/s/psqn80ez225ir7l/thesis_arnaud.pdf?dl=0))
+{% assign sorted_pubs = site.publications | sort: 'date' | reverse %}
+
+## Journal Articles
+
+{% for post in sorted_pubs %}
+  {% if post.pubtype == 'journal' %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+## Conference Papers
+
+{% for post in sorted_pubs %}
+  {% if post.pubtype == 'conference' %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+## Thesis
+
+{% for post in sorted_pubs %}
+  {% if post.pubtype == 'thesis' %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
