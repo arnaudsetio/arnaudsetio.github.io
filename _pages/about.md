@@ -22,7 +22,7 @@ Outside of research, he is actively involved in music ensembles — orchestra an
 
 {% assign sorted_pubs = site.publications | sort: 'date' | reverse %}
 {% for pub in sorted_pubs limit:5 %}
-**[{{ pub.title }}]({{ pub.permalink }})**  
+[{{ pub.title }}]({{ pub.permalink }})  
 {{ pub.venue }}, {{ pub.date | date: "%Y" }}
 
 {% endfor %}
