@@ -1,7 +1,11 @@
 ---
 title: "Development of lung nodule detection algorithms in chest CT"
-excerpt: "Automatic detection of lung nodules using pattern recognition and deep learning algorithms<br/><img src='/images/nodule_det_architecture.PNG' width='750' class='center'>"
 collection: portfolio
+order: 3
+short_title: "Lung nodule detection"
+image: "/images/nodule_det_architecture.PNG"
+summary: "Computer-aided detection of pulmonary nodules in chest CT using pattern recognition and deep learning."
+excerpt: "Computer-aided detection of pulmonary nodules in chest CT using pattern recognition and deep learning."
 ---
 
 Lung cancer is the leading cause of cancer death worldwide. Currently, only 15% of all diagnosed lung cancers are detected at an early stage, which causes a five-year survival rate of only 16%. The aim of this project is to automatically detect cancers in an earlier stage when curative treatment options are better.
