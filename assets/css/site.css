@@ -58,15 +58,18 @@ p, li {
   line-height: 1.7;
 }
 
+/* Inline links sit at body weight and are marked with an underline rather
+   than bold. Navigation, pills, buttons, and card links opt out below. */
 a {
-  text-decoration: none;
   color: var(--color-link);
-  font-weight: 500;
+  font-weight: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
 }
 
 a:hover {
   color: var(--color-link-hover);
-  text-decoration: underline;
 }
 
 h1 { font-size: 22px; }
@@ -104,19 +107,13 @@ header .site-id h1 {
 header .site-id h1 a {
   color: #ffffff;
   font-weight: 600;
+  text-decoration: none;
 }
 
 header .site-id h1 a:hover {
   color: #ffffff;
   text-decoration: none;
   opacity: 0.85;
-}
-
-header .site-id p {
-  display: inline;
-  color: rgba(255, 255, 255, 0.75);
-  font-size: 14px;
-  margin-left: 12px;
 }
 
 nav {
@@ -129,7 +126,9 @@ nav a {
   padding: 6px 20px;
   color: rgba(255, 255, 255, 0.85);
   font-size: 17px;
+  font-weight: 500;
   border-radius: 4px;
+  text-decoration: none;
   transition: background-color 0.2s ease, color 0.2s ease;
 }
 
@@ -182,10 +181,10 @@ main {
 }
 
 .photo {
-  width: 300px;
-  height: 300px;
-  min-width: 300px;
-  min-height: 300px;
+  width: 220px;
+  height: 220px;
+  min-width: 220px;
+  min-height: 220px;
   border-radius: 50%;
   background-position: center;
   background-size: cover;
@@ -241,6 +240,7 @@ main {
   border: 1px solid var(--color-border);
   border-radius: 999px;
   background: transparent;
+  text-decoration: none;
   transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
 
@@ -304,6 +304,7 @@ main {
   font-weight: 600;
   color: var(--color-accent);
   white-space: nowrap;
+  text-decoration: none;
 }
 
 /* --- News / updates list --- */
@@ -423,6 +424,7 @@ main {
   font-weight: 600;
   color: var(--color-accent);
   margin-top: 4px;
+  text-decoration: none;
 }
 
 /* ==========================================================================
@@ -509,6 +511,7 @@ main {
   color: #ffffff;
   font-size: 14px;
   font-weight: 600;
+  text-decoration: none;
   transition: opacity 0.3s ease;
 }
 
@@ -565,9 +568,10 @@ main {
   color: var(--color-heading);
   line-height: 1.4;
   display: block;
+  text-decoration: none;
 }
 
-a.pub-title:hover { color: var(--color-accent); }
+a.pub-title:hover { text-decoration: underline; color: var(--color-accent); }
 
 .pub-venue {
   font-size: 14px;
@@ -691,10 +695,10 @@ body.dark-mode #theme-toggle {
   .projects-container { grid-template-columns: 1fr; }
 
   .photo {
-    width: 240px;
-    height: 240px;
-    min-width: 240px;
-    min-height: 240px;
+    width: 200px;
+    height: 200px;
+    min-width: 200px;
+    min-height: 200px;
   }
 
   .pub-item {
@@ -716,7 +720,6 @@ body.dark-mode #theme-toggle {
   }
 
   header .site-id h1 { font-size: 15px; display: block; }
-  header .site-id p { display: none; }
 
   nav { flex-wrap: wrap; gap: 4px; width: 100%; }
   nav a { font-size: 14px; padding: 4px 10px; }
@@ -724,9 +727,9 @@ body.dark-mode #theme-toggle {
   .bio h2 { font-size: 28px; }
 
   .photo {
-    width: 200px;
-    height: 200px;
-    min-width: 200px;
-    min-height: 200px;
+    width: 170px;
+    height: 170px;
+    min-width: 170px;
+    min-height: 170px;
   }
 }

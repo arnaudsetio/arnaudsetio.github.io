@@ -20,8 +20,3 @@ redirect_from:
 * PhD, Radboud University Medical Center, Nijmegen, The Netherlands, 2013–2018
 * Master, Eindhoven University of Technology, Eindhoven, The Netherlands, 2011–2013
 * Bachelor, Institut Teknologi Bandung, Bandung, Indonesia, 2006–2010
-
-## Publications
-
-A full list is on the [publications page]({{ '/publications/' | relative_url }}), on
-[Google Scholar]({{ site.author.googlescholar }}), and on [ORCID]({{ site.author.orcid }}).
