@@ -7,5 +7,5 @@ date: 2018-01-01
 pubtype: thesis
 venue: 'PhD Thesis, Radboud University Nijmegen'
 citation: 'Setio, A. A. A. (2018). &quot;Computer-aided diagnosis in thoracic CT scans for lung cancer screening.&quot; <i>PhD Thesis</i>. Radboud University Nijmegen.'
-paperurl: "https://www.dropbox.com/s/psqn80ez225ir7l/thesis_arnaud.pdf?dl=0"
+paperurl: "https://hdl.handle.net/2066/191619"
 ---

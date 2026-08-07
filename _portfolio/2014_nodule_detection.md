@@ -12,7 +12,7 @@ Lung cancer is the leading cause of cancer death worldwide. Currently, only 15% 
 
 <img src='/images/nodule1.PNG' width='900' class='center'>
 
-Within this project, novel Computer-Aided Detection (CAD) systems for pulmonary nodules were developed and evaluated. The results were presented through a number of publications listed below and summarized in my [PhD Thesis](https://www.dropbox.com/s/psqn80ez225ir7l/thesis_arnaud.pdf?dl=0).
+Within this project, novel Computer-Aided Detection (CAD) systems for pulmonary nodules were developed and evaluated. The results were presented through a number of publications listed below and summarized in my [PhD Thesis](https://hdl.handle.net/2066/191619).
 
 ## Publications
 
