@@ -26,7 +26,15 @@ excerpt: "Peer-reviewed journal articles, conference papers, and thesis."
           <li class="pub-item">
             <div class="pub-year">{{ pub.date | date: '%Y' }}</div>
             <div>
-              <a class="pub-title" href="{{ pub.url | relative_url }}">{{ pub.title }}</a>
+              {% comment %}
+                The title links straight to the paper when we have a DOI or
+                publisher URL, and falls back to the site's own page otherwise.
+              {% endcomment %}
+              {% if pub.paperurl %}
+                <a class="pub-title" href="{{ pub.paperurl }}" rel="noopener">{{ pub.title }}</a>
+              {% else %}
+                <a class="pub-title" href="{{ pub.url | relative_url }}">{{ pub.title }}</a>
+              {% endif %}
               {% if pub.venue %}<div class="pub-venue">{{ pub.venue }}</div>{% endif %}
               {% if pub.excerpt %}<div class="pub-excerpt">{{ pub.excerpt | strip_html }}</div>{% endif %}
             </div>

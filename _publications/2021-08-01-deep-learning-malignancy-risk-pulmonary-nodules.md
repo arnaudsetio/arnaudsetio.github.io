@@ -7,4 +7,5 @@ date: 2021-08-01
 pubtype: journal
 venue: 'Radiology'
 citation: 'Venkadesh, K. V., Setio, A. A. A., Schreuder, A., et al. (2021). &quot;Deep learning for malignancy risk estimation of pulmonary nodules detected at low-dose screening CT.&quot; <i>Radiology</i>. 300(2), 438–447.'
+paperurl: "https://doi.org/10.1148/radiol.2021204433"
 ---

@@ -7,4 +7,5 @@ date: 2016-07-01
 pubtype: journal
 venue: 'IEEE Transactions on Medical Imaging'
 citation: 'Setio, A. A. A., Ciompi, F., Litjens, G., et al. (2016). &quot;Pulmonary nodule detection in CT images: false positive reduction using multi-view convolutional networks.&quot; <i>IEEE Transactions on Medical Imaging</i>.'
+paperurl: "https://doi.org/10.1109/TMI.2016.2536809"
 ---

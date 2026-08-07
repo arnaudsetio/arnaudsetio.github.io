@@ -7,4 +7,5 @@ date: 2017-08-01
 pubtype: journal
 venue: 'Medical Image Analysis'
 citation: 'Setio, A. A. A., Traverso, A., De Bel, T., et al. (2017). &quot;Validation, comparison, and combination of algorithms for automatic detection of pulmonary nodules in computed tomography images: the LUNA16 challenge.&quot; <i>Medical Image Analysis</i>. 42, 1–13.'
+paperurl: "https://doi.org/10.1016/j.media.2017.06.015"
 ---

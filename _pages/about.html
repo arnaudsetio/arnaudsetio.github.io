@@ -105,7 +105,11 @@ redirect_from:
       <li class="pub-item">
         <div class="pub-year">{{ pub.date | date: '%Y' }}</div>
         <div>
-          <a class="pub-title" href="{{ pub.url | relative_url }}">{{ pub.title }}</a>
+          {% if pub.paperurl %}
+            <a class="pub-title" href="{{ pub.paperurl }}" rel="noopener">{{ pub.title }}</a>
+          {% else %}
+            <a class="pub-title" href="{{ pub.url | relative_url }}">{{ pub.title }}</a>
+          {% endif %}
           {% if pub.venue %}<div class="pub-venue">{{ pub.venue }}</div>{% endif %}
         </div>
       </li>

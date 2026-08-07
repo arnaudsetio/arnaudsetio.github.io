@@ -7,4 +7,5 @@ date: 2015-10-01
 pubtype: journal
 venue: 'Medical Physics'
 citation: 'Setio, A. A. A., Jacobs, C., Gelderblom, J., &amp; van Ginneken, B. (2015). &quot;Automatic detection of large pulmonary solid nodules in thoracic CT images.&quot; <i>Medical Physics</i>. 42(10), 5642–5653.'
+paperurl: "https://doi.org/10.1118/1.4929562"
 ---
