@@ -1,0 +1,8 @@
+# Optional "News" section on the home page.
+#
+# Add entries below and they appear between the bio and the projects strip,
+# newest first. With more than six entries the rest collapse behind a
+# "Show more" button. Leave this file with no entries to hide the section.
+#
+# - date: "Sep 2025"
+#   text: 'Our paper <a href="https://example.org">SPEC-CXR</a> was presented at MICCAI 2025.'

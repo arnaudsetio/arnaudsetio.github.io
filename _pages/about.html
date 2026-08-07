@@ -1,0 +1,114 @@
+---
+layout: base
+permalink: /
+title: "Home"
+excerpt: "Arnaud Arindra Adiyoso Setio — staff research scientist working on deep learning, medical image analysis, and computer-aided diagnosis."
+redirect_from:
+  - /about/
+  - /about.html
+---
+
+<div class="heading">
+  <div class="photo" style="background-image: url('{{ '/images/profile.png' | relative_url }}');"></div>
+  <div class="bio">
+    <h2>{{ site.author.name }}</h2>
+
+    <p>I am a staff research scientist at <a href="https://www.lunit.io/">Lunit Inc.</a>, working on deep learning,
+      medical image analysis, and computer-aided diagnosis. Previously I was at
+      <a href="https://www.siemens-healthineers.com/">Siemens Healthineers</a>.</p>
+
+    <p>I obtained my PhD at the <a href="https://www.diagnijmegen.nl/">Diagnostic Image Analysis Group</a>,
+      Radboud University Medical Center, where I worked on automatic detection and classification of lung nodules in
+      chest CT under the supervision of
+      <a href="http://diagnijmegen.nl/index.php/Person?name=Bram_van_Ginneken">Bram van Ginneken</a>. During my PhD I
+      set up the <a href="https://luna16.grand-challenge.org/">LUNA16</a> challenge, a public benchmark for pulmonary
+      nodule detection algorithms.</p>
+
+    <p>I hold a bachelor's degree in Electrical Engineering from
+      <a href="http://www.itb.ac.id/en/">Institut Teknologi Bandung</a> and a master's degree from
+      <a href="https://www.tue.nl/">Eindhoven University of Technology</a>. Outside of research I play in music
+      ensembles — orchestra and angklung. I conducted the Nusantara Student Ensemble (strings) and
+      <a href="https://www.youtube.com/@AngklungEindhoven">Angklung Eindhoven</a>.</p>
+
+    <p class="interests"><strong>Research interests:</strong> deep learning · medical image analysis ·
+      computer-aided diagnosis · computer vision · image processing</p>
+
+    <p class="location-text">{{ site.author.location }}</p>
+
+    <div class="link-row">
+      {% if site.author.googlescholar %}<a href="{{ site.author.googlescholar }}">Google Scholar</a>{% endif %}
+      {% if site.author.orcid %}<a href="{{ site.author.orcid }}">ORCID</a>{% endif %}
+      {% if site.author.linkedin %}<a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/">LinkedIn</a>{% endif %}
+      {% if site.author.email %}<a href="mailto:{{ site.author.email }}">Email</a>{% endif %}
+      <a class="primary" href="{{ '/cv/' | relative_url }}">CV</a>
+    </div>
+  </div>
+</div>
+
+{% assign news = site.data.news | default: empty %}
+{% if news and news.size > 0 %}
+<section class="section updates">
+  <div class="section-header">
+    <h3>News</h3>
+  </div>
+  <ul>
+    {% for item in news limit: 6 %}
+      <li><span class="date">{{ item.date }}</span> — {{ item.text }}</li>
+    {% endfor %}
+    {% if news.size > 6 %}
+      <div id="news-hidden" class="hidden">
+        {% for item in news offset: 6 %}
+          <li><span class="date">{{ item.date }}</span> — {{ item.text }}</li>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </ul>
+  {% if news.size > 6 %}
+    <button id="news-toggle" class="toggle-btn" type="button" aria-expanded="false">Show more</button>
+  {% endif %}
+</section>
+{% endif %}
+
+{% assign projects = site.portfolio | sort: 'order' %}
+{% if projects.size > 0 %}
+<section class="section">
+  <div class="section-header">
+    <h3>Projects</h3>
+    <a class="section-link" href="{{ '/portfolio/' | relative_url }}">View all →</a>
+  </div>
+  <div class="research-strip-scroll">
+    {% for project in projects %}
+      <div class="research-strip-card">
+        {% if project.image %}
+          <img src="{{ project.image | relative_url }}" alt="{{ project.title | escape }}" loading="lazy">
+        {% endif %}
+        <div class="research-strip-card-body">
+          {% if project.venue %}<span class="research-strip-venue">{{ project.venue }}</span>{% endif %}
+          <h4>{{ project.short_title | default: project.title }}</h4>
+          <p>{{ project.summary }}</p>
+          <a class="research-strip-paper-link" href="{{ project.url | relative_url }}">Read more →</a>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{% assign recent = site.publications | sort: 'date' | reverse %}
+<section class="section">
+  <div class="section-header">
+    <h3>Recent publications</h3>
+    <a class="section-link" href="{{ '/publications/' | relative_url }}">View all →</a>
+  </div>
+  <ul class="pub-list">
+    {% for pub in recent limit: 6 %}
+      <li class="pub-item">
+        <div class="pub-year">{{ pub.date | date: '%Y' }}</div>
+        <div>
+          <a class="pub-title" href="{{ pub.url | relative_url }}">{{ pub.title }}</a>
+          {% if pub.venue %}<div class="pub-venue">{{ pub.venue }}</div>{% endif %}
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</section>

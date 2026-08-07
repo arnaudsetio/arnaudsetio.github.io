@@ -1,11 +1,10 @@
-# main links links
+# Top navigation. The site name in the header links back to the home page.
 main:
   - title: "Projects"
     url: /portfolio/
-    
+
   - title: "Publications"
     url: /publications/
-    
+
   - title: "CV"
     url: /cv/
-    

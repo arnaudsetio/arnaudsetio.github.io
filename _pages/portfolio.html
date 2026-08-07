@@ -1,14 +1,31 @@
 ---
-layout: archive
+layout: base
 title: "Projects"
 permalink: /portfolio/
-author_profile: true
+excerpt: "Research projects on lung nodule detection, malignancy prediction, and benchmarking of computer-aided diagnosis algorithms."
 ---
 
-{% include base_path %}
+<div class="page-title">
+  <h2>Projects</h2>
+  <p>Research projects in computer-aided diagnosis and medical image analysis.</p>
+</div>
 
-
-{% for post in site.portfolio reversed %}
-  {% include archive-single.html %}
-{% endfor %}
-
+<div class="projects-container">
+  {% assign projects = site.portfolio | sort: 'order' %}
+  {% for project in projects %}
+    <article class="project-card">
+      {% if project.image %}
+        <div class="project-image">
+          <img src="{{ project.image | relative_url }}" alt="{{ project.title | escape }}" loading="lazy">
+        </div>
+      {% endif %}
+      <div class="project-content">
+        <h3>{{ project.title }}</h3>
+        <p>{{ project.summary }}</p>
+        <div class="project-links">
+          <a href="{{ project.url | relative_url }}">Read more</a>
+        </div>
+      </div>
+    </article>
+  {% endfor %}
+</div>
