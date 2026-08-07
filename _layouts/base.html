@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="{{ site.locale | slice: 0, 2 | default: 'en' }}">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>{% if page.title and page.permalink != '/' %}{{ page.title }} {{ site.title_separator }} {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 200 }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  <link href="{{ '/feed.xml' | relative_url }}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+</head>
+
+<body class="{{ page.body_class }}">
+  <button id="theme-toggle" type="button" aria-label="Toggle dark mode" aria-pressed="false">🌙</button>
+
+  <header>
+    <div class="site-id">
+      <h1><a href="{{ '/' | relative_url }}">{{ site.author.name | default: site.title }}</a></h1>
+    </div>
+    <nav>
+      {% for item in site.data.navigation.main %}
+        <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} class="active"{% endif %}>{{ item.title }}</a>
+      {% endfor %}
+    </nav>
+  </header>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer class="footer">
+    <p>
+      © {{ site.time | date: '%Y' }} {{ site.author.name }} · Layout adapted from
+      <a href="https://github.com/Maeevee/MyPortfolio" rel="noopener noreferrer">Maeevee</a>, MIT licence.
+    </p>
+  </footer>
+
+  <script src="{{ '/assets/js/site.js' | relative_url }}"></script>
+</body>
+
+</html>

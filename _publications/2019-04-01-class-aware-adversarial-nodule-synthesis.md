@@ -7,4 +7,5 @@ date: 2019-04-01
 pubtype: conference
 venue: 'IEEE 16th International Symposium on Biomedical Imaging (ISBI)'
 citation: 'Yang, J., Liu, S., Grbic, S., Setio, A. A. A., et al. (2019). &quot;Class-aware adversarial lung nodule synthesis in CT images.&quot; <i>IEEE ISBI 2019</i>. pp. 1348–1352.'
+paperurl: "https://doi.org/10.1109/ISBI.2019.8759493"
 ---

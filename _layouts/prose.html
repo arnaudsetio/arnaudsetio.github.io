@@ -1,0 +1,30 @@
+---
+layout: base
+---
+
+<article class="prose">
+  {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
+
+  {% if page.venue or page.date %}
+    <p class="pub-venue">
+      {%- if page.venue %}{{ page.venue }}{% endif -%}
+      {%- if page.venue and page.date %}, {% endif -%}
+      {%- if page.date %}{{ page.date | date: '%Y' }}{% endif -%}
+    </p>
+  {% endif %}
+
+  {% if page.collection == 'publications' and page.excerpt %}
+    <p>{{ page.excerpt | strip_html }}</p>
+  {% endif %}
+
+  {{ content }}
+
+  {% if page.citation %}
+    <hr>
+    <p><strong>Citation:</strong> {{ page.citation }}</p>
+  {% endif %}
+
+  {% if page.paperurl %}
+    <p><a href="{{ page.paperurl }}">Read the paper →</a></p>
+  {% endif %}
+</article>

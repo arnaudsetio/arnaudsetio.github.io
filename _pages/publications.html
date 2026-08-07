@@ -1,0 +1,46 @@
+---
+layout: base
+title: "Publications"
+permalink: /publications/
+excerpt: "Peer-reviewed journal articles, conference papers, and thesis."
+---
+
+<div class="page-title">
+  <h2>Publications</h2>
+  <p>Also on
+    <a href="{{ site.author.googlescholar }}">Google Scholar</a> and
+    <a href="{{ site.author.orcid }}">ORCID</a>.</p>
+</div>
+
+{% assign sorted = site.publications | sort: 'date' | reverse %}
+{% assign groups = "journal,conference,thesis" | split: "," %}
+{% assign labels = "Journal articles,Conference papers,Thesis" | split: "," %}
+
+{% for type in groups %}
+  {% assign items = sorted | where: 'pubtype', type %}
+  {% if items.size > 0 %}
+    <section class="pub-group">
+      <h3>{{ labels[forloop.index0] }}</h3>
+      <ol class="pub-list">
+        {% for pub in items %}
+          <li class="pub-item">
+            <div class="pub-year">{{ pub.date | date: '%Y' }}</div>
+            <div>
+              {% comment %}
+                The title links straight to the paper when we have a DOI or
+                publisher URL, and falls back to the site's own page otherwise.
+              {% endcomment %}
+              {% if pub.paperurl %}
+                <a class="pub-title" href="{{ pub.paperurl }}" rel="noopener">{{ pub.title }}</a>
+              {% else %}
+                <a class="pub-title" href="{{ pub.url | relative_url }}">{{ pub.title }}</a>
+              {% endif %}
+              {% if pub.venue %}<div class="pub-venue">{{ pub.venue }}</div>{% endif %}
+              {% if pub.excerpt %}<div class="pub-excerpt">{{ pub.excerpt | strip_html }}</div>{% endif %}
+            </div>
+          </li>
+        {% endfor %}
+      </ol>
+    </section>
+  {% endif %}
+{% endfor %}

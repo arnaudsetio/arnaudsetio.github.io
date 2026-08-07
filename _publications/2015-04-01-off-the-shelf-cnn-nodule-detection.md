@@ -7,4 +7,5 @@ date: 2015-04-01
 pubtype: conference
 venue: 'IEEE International Symposium on Biomedical Imaging (ISBI)'
 citation: 'van Ginneken, B., Setio, A. A. A., Jacobs, C., &amp; Ciompi, F. (2015). &quot;Off-the-shelf Convolutional Neural Network features for pulmonary nodule detection in computed tomography scans.&quot; <i>IEEE ISBI 2015</i>.'
+paperurl: "https://doi.org/10.1109/ISBI.2015.7163869"
 ---

@@ -7,4 +7,5 @@ date: 2021-07-01
 pubtype: journal
 venue: 'Medical Image Analysis'
 citation: 'Gündel, S., Setio, A. A. A., Ghesu, F. C., Grbic, S., Georgescu, B., Maier, A., &amp; Comaniciu, D. (2021). &quot;Robust classification from noisy labels: Integrating additional knowledge for chest radiography abnormality assessment.&quot; <i>Medical Image Analysis</i>. 72, 102087.'
+paperurl: "https://doi.org/10.1016/j.media.2021.102087"
 ---

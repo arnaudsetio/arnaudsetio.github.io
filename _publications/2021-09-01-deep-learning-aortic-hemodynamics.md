@@ -7,4 +7,5 @@ date: 2021-09-01
 pubtype: journal
 venue: 'IEEE Journal of Biomedical and Health Informatics'
 citation: 'Yevtushenko, P., Goubergrits, L., Gundelwein, L., Setio, A. A. A., et al. (2021). &quot;Deep Learning Based Centerline-Aggregated Aortic Hemodynamics: An Efficient Alternative to Numerical Modelling of Hemodynamics.&quot; <i>IEEE Journal of Biomedical and Health Informatics</i>.'
+paperurl: "https://doi.org/10.1109/JBHI.2021.3116764"
 ---
