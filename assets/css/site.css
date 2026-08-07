@@ -209,12 +209,6 @@ main {
   margin: 0;
 }
 
-.location-text {
-  font-size: 13px;
-  color: var(--color-accent);
-  line-height: 1.4;
-}
-
 .interests {
   font-size: 15px;
   color: var(--text-muted);
