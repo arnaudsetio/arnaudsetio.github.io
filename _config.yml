@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Arnaud A. A. Setio"
 title_separator          : "-"
 name                     : &name "Arnaud A. A. Setio"
-description              : &description "personal description"
+description              : &description "Personal website of Arnaud Arindra Adiyoso Setio - deep learning, medical image analysis, and computer-aided diagnosis."
 url                      : https://arnaudsetio.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "arnaudsetio/arnaudsetio.github.io"
@@ -84,12 +84,13 @@ author:
   name             : "Arnaud Arindra Adiyoso Setio"
   avatar           : "profile.png"
   bio              : "Research - Deep Learning - Medical Image Analysis"
+  tagline          : "Research Scientist @ Lunit"
   location         : "Nürnberg, Germany"
   employer         :
-  pubmed           : 
+  pubmed           :
   googlescholar    : "https://scholar.google.nl/citations?user=TxLhvpcAAAAJ"
   email            :
-  researchgate     : 
+  researchgate     :
   uri              :
   bitbucket        :
   codepen          :
@@ -97,7 +98,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : 
+  github           :
   google_plus      :
   keybase          :
   instagram        :
@@ -109,7 +110,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          :
   vine             :
   weibo            :
   xing             :
@@ -195,54 +196,37 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+      layout: prose
   # _pages
   - scope:
       path: ""
       type: pages
     values:
-      layout: single
-      author_profile: true
+      layout: prose
   # _teaching
   - scope:
       path: ""
       type: teaching
     values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+      layout: prose
   # _publications
   - scope:
       path: ""
       type: publications
     values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
+      layout: prose
   # _portfolio
   - scope:
       path: ""
       type: portfolio
     values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
+      layout: prose
   # _talks
   - scope:
       path: ""
       type: talks
     values:
-      layout: talk
-      author_profile: true
-      share: true
+      layout: prose
 
 # Sass/SCSS
 sass:
