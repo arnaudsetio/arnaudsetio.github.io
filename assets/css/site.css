@@ -1,0 +1,732 @@
+/* ==========================================================================
+   Site theme — adapted from the layout of babakint.github.io
+   (originally derived from github.com/Maeevee/MyPortfolio, MIT licence).
+   Single stylesheet; no icon fonts, no external CSS beyond the Inter webfont.
+   ========================================================================== */
+
+:root {
+  /* --- Raw palette: neutral greys --- */
+  --grey-900: #1c1f23;  /* near-black — headings, dark surfaces */
+  --grey-800: #2f343a;  /* charcoal — nav bar */
+  --grey-600: #4a5158;  /* slate — links and accents */
+  --grey-500: #6b727a;  /* muted body text */
+  --grey-300: #d4d8dc;  /* borders and dividers */
+  --grey-100: #f4f5f6;  /* page background */
+
+  /* --- Semantic roles --- */
+  --bg-page:          var(--grey-100);
+  --bg-card:          #ffffff;
+  --text-body:        #33383e;
+  --text-muted:       var(--grey-500);
+  --color-link:       var(--grey-600);
+  --color-link-hover: var(--grey-900);
+  --color-accent:     var(--grey-600);
+  --color-border:     var(--grey-300);
+  --color-navbar:     var(--grey-800);
+  --color-heading:    var(--grey-900);
+
+  /* --- Typography --- */
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-size-body: 17px;
+  --font-weight-body: 300;
+
+  /* --- Layout --- */
+  --content-max: 1060px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-page);
+  color: var(--text-body);
+  font-family: var(--font-body);
+  font-size: var(--font-size-body);
+  font-weight: var(--font-weight-body);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+p, li {
+  font-size: var(--font-size-body);
+  line-height: 1.7;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-link);
+  font-weight: 500;
+}
+
+a:hover {
+  color: var(--color-link-hover);
+  text-decoration: underline;
+}
+
+h1 { font-size: 22px; }
+h2 { font-size: 42px; color: var(--color-heading); }
+h3 { font-size: 26px; }
+h4 { font-size: 18px; margin-bottom: 5px; }
+
+/* ==========================================================================
+   Header / navigation
+   ========================================================================== */
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  padding: 10px 24px;
+  min-height: 64px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  background-color: var(--color-navbar);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+header .site-id h1 {
+  font-size: 18px;
+  font-weight: 600;
+  display: inline;
+}
+
+header .site-id h1 a {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+header .site-id h1 a:hover {
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.85;
+}
+
+header .site-id p {
+  display: inline;
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 14px;
+  margin-left: 12px;
+}
+
+nav {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+nav a {
+  padding: 6px 20px;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 17px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+nav a:hover {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+  text-decoration: none;
+}
+
+nav a.active {
+  font-weight: 600;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.14);
+}
+
+/* ==========================================================================
+   Main
+   ========================================================================== */
+
+/* `main` is the single width constraint; the blocks inside it just fill it.
+   Using max-width rather than a percentage plus min-width keeps narrow
+   desktop widths from overflowing horizontally. */
+main {
+  width: 100%;
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: 48px 24px 50px;
+}
+
+.heading,
+.section,
+.page-title,
+.projects-container,
+.pub-group,
+.prose {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* --- Bio block --- */
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 48px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.photo {
+  width: 300px;
+  height: 300px;
+  min-width: 300px;
+  min-height: 300px;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  flex-shrink: 0;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.bio h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.15;
+  margin-bottom: 4px;
+}
+
+.bio p {
+  margin: 0;
+}
+
+.location-text {
+  font-size: 13px;
+  color: var(--color-accent);
+  line-height: 1.4;
+}
+
+.interests {
+  font-size: 15px;
+  color: var(--text-muted);
+}
+
+/* --- Text link row (no icons) --- */
+
+.link-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.link-row a {
+  display: inline-block;
+  padding: 7px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--color-accent);
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  background: transparent;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.link-row a:hover {
+  background-color: var(--color-accent);
+  border-color: var(--color-accent);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* The CV gets a filled treatment so it reads as the primary action. */
+.link-row a.primary {
+  background: var(--grey-800);
+  border-color: var(--grey-800);
+  color: #ffffff;
+  position: relative;
+  overflow: hidden;
+  letter-spacing: 0.3px;
+}
+
+.link-row a.primary::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 60%;
+  height: 100%;
+  background: linear-gradient(120deg, transparent 0%, rgba(255, 255, 255, 0.25) 50%, transparent 100%);
+  transition: left 0.5s ease;
+}
+
+.link-row a.primary:hover::before { left: 120%; }
+.link-row a.primary:hover { filter: brightness(1.1); }
+
+/* --- Generic section --- */
+
+.section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.section:last-of-type { border-bottom: none; }
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.section-header h3 {
+  font-size: 26px;
+  font-weight: 600;
+  color: var(--color-heading);
+}
+
+.section-link {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-accent);
+  white-space: nowrap;
+}
+
+/* --- News / updates list --- */
+
+.updates ul {
+  list-style-position: outside;
+  padding-left: 22px;
+  margin: 0;
+}
+
+.updates li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.updates .date {
+  font-variant-numeric: tabular-nums;
+  color: var(--text-muted);
+}
+
+.hidden { display: none; }
+
+.toggle-btn {
+  background: none;
+  border: none;
+  color: var(--color-accent);
+  cursor: pointer;
+  padding: 8px 0 0;
+  font-family: inherit;
+  font-size: 1em;
+  text-decoration: underline;
+}
+
+.toggle-btn:hover { color: var(--color-link-hover); }
+
+/* ==========================================================================
+   Research strip (home) — horizontally scrollable cards
+   ========================================================================== */
+
+.research-strip-scroll {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding-bottom: 12px;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+.research-strip-scroll::-webkit-scrollbar { height: 4px; }
+.research-strip-scroll::-webkit-scrollbar-track { background: transparent; }
+.research-strip-scroll::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 9999px;
+}
+
+.research-strip-card {
+  flex: 0 0 260px;
+  scroll-snap-align: start;
+  background: var(--bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.research-strip-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.research-strip-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  object-position: top;
+  display: block;
+  background: #e8ecef;
+}
+
+.research-strip-card-body {
+  padding: 14px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: 1;
+}
+
+.research-strip-venue {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-accent);
+}
+
+.research-strip-card-body h4 {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--color-heading);
+  margin: 0;
+  line-height: 1.3;
+}
+
+.research-strip-card-body p {
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin: 0;
+  flex: 1;
+}
+
+.research-strip-paper-link {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-accent);
+  margin-top: 4px;
+}
+
+/* ==========================================================================
+   Projects page — cards (no tags)
+   ========================================================================== */
+
+.page-title {
+  margin: 0 auto 32px;
+}
+
+.page-title h2 {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.page-title p {
+  margin-top: 10px;
+  color: var(--text-muted);
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.project-card {
+  background: var(--bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.12);
+}
+
+.project-image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  background: #e8ecef;
+}
+
+.project-content {
+  padding: 1.1rem 1.2rem 1.3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  flex: 1;
+}
+
+.project-content h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-heading);
+  line-height: 1.3;
+  margin: 0;
+}
+
+.project-content p {
+  font-size: 15px;
+  color: var(--text-muted);
+  margin: 0;
+  flex: 1;
+}
+
+.project-links {
+  display: flex;
+  gap: 0.8rem;
+  margin-top: 0.2rem;
+}
+
+.project-links a {
+  padding: 0.45rem 1rem;
+  border-radius: 4px;
+  background: var(--color-accent);
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  transition: opacity 0.3s ease;
+}
+
+.project-links a:hover {
+  opacity: 0.85;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* ==========================================================================
+   Publications
+   ========================================================================== */
+
+.pub-group {
+  margin: 0 auto 40px;
+}
+
+.pub-group > h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--color-heading);
+  padding-bottom: 8px;
+  margin-bottom: 18px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.pub-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pub-item {
+  display: grid;
+  grid-template-columns: 76px 1fr;
+  gap: 18px;
+  padding: 14px 0;
+  border-bottom: 1px solid rgba(176, 180, 191, 0.35);
+}
+
+.pub-item:last-child { border-bottom: none; }
+
+.pub-year {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--color-accent);
+  font-variant-numeric: tabular-nums;
+  padding-top: 2px;
+}
+
+.pub-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-heading);
+  line-height: 1.4;
+  display: block;
+}
+
+a.pub-title:hover { color: var(--color-accent); }
+
+.pub-venue {
+  font-size: 14px;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-top: 3px;
+}
+
+.pub-excerpt {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-top: 5px;
+}
+
+/* ==========================================================================
+   Prose (CV, publication detail pages, and other markdown content)
+   ========================================================================== */
+
+.prose {
+  margin: 0 auto;
+}
+
+.prose h1 { font-size: 32px; display: block; }
+.prose h2 { font-size: 26px; margin: 28px 0 12px; }
+.prose h3 { font-size: 20px; margin: 22px 0 10px; }
+.prose p, .prose li { margin-bottom: 10px; }
+.prose ul, .prose ol { padding-left: 24px; margin-bottom: 14px; }
+.prose img { max-width: 100%; height: auto; }
+.prose hr {
+  border: none;
+  border-top: 1px solid var(--color-border);
+  margin: 28px 0;
+}
+.prose .center { display: block; margin: 16px auto; }
+
+/* ==========================================================================
+   Footer + theme toggle
+   ========================================================================== */
+
+.footer {
+  text-align: center;
+  padding: 1rem;
+  color: var(--text-muted);
+}
+
+.footer p, .footer a { font-size: 11px; margin: 0; }
+
+#theme-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 16px;
+  background-color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1;
+  z-index: 200;
+}
+
+#theme-toggle:hover {
+  background-color: var(--grey-600);
+  opacity: 0.85;
+}
+
+/* ==========================================================================
+   Dark mode
+   ========================================================================== */
+
+body.dark-mode {
+  --bg-page:          #16191c;
+  --bg-card:          #21262b;
+  --text-body:        #e3e6e8;
+  --text-muted:       #a2a9b0;
+  --color-link:       #b8c0c8;
+  --color-link-hover: #ffffff;
+  --color-accent:     #b8c0c8;
+  --color-border:     rgba(255, 255, 255, 0.16);
+  --color-heading:    #eceef0;
+  --color-navbar:     #21262b;
+}
+
+body.dark-mode .link-row a:hover,
+body.dark-mode .project-links a {
+  color: #16191c;
+}
+
+body.dark-mode .link-row a.primary,
+body.dark-mode .link-row a.primary:hover {
+  background: #e3e6e8;
+  border-color: #e3e6e8;
+  color: #16191c;
+}
+
+body.dark-mode #theme-toggle {
+  background-color: #3a4148;
+}
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+
+@media (max-width: 1180px) {
+  .projects-container { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 900px) {
+  main { padding: 36px 20px 40px; }
+
+  .heading {
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+  }
+
+  .bio h2 { font-size: 32px; }
+}
+
+@media (max-width: 768px) {
+  .projects-container { grid-template-columns: 1fr; }
+
+  .photo {
+    width: 240px;
+    height: 240px;
+    min-width: 240px;
+    min-height: 240px;
+  }
+
+  .pub-item {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
+  .research-strip-card { flex: 0 0 220px; }
+
+  .section-header { flex-direction: column; align-items: flex-start; gap: 6px; }
+}
+
+@media (max-width: 560px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 16px;
+    gap: 8px;
+  }
+
+  header .site-id h1 { font-size: 15px; display: block; }
+  header .site-id p { display: none; }
+
+  nav { flex-wrap: wrap; gap: 4px; width: 100%; }
+  nav a { font-size: 14px; padding: 4px 10px; }
+
+  .bio h2 { font-size: 28px; }
+
+  .photo {
+    width: 200px;
+    height: 200px;
+    min-width: 200px;
+    min-height: 200px;
+  }
+}
