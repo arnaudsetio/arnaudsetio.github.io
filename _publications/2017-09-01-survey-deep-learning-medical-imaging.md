@@ -7,4 +7,5 @@ date: 2017-09-01
 pubtype: journal
 venue: 'Medical Image Analysis'
 citation: 'Litjens, G., Kooi, T., Bejnordi, B. E., Setio, A. A. A., et al. (2017). &quot;A survey on deep learning in medical image analysis.&quot; <i>Medical Image Analysis</i>. 42, 60–88.'
+paperurl: "https://doi.org/10.1016/j.media.2017.07.005"
 ---

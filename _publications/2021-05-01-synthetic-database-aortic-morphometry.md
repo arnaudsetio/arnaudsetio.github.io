@@ -7,4 +7,5 @@ date: 2021-05-01
 pubtype: journal
 venue: 'IEEE Transactions on Medical Imaging'
 citation: 'Thamsen, B., Yevtushenko, P., Gundelwein, L., Setio, A. A. A., et al. (2021). &quot;Synthetic database of aortic morphometry and hemodynamics: overcoming medical imaging data availability.&quot; <i>IEEE Transactions on Medical Imaging</i>. 40(5), 1438–1449.'
+paperurl: "https://doi.org/10.1109/TMI.2021.3057496"
 ---

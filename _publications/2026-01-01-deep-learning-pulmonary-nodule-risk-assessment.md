@@ -7,4 +7,5 @@ date: 2026-01-01
 pubtype: journal
 venue: 'Radiology Advances'
 citation: 'Mortani Barbosa Jr, E. J., Kim, Y., Zhang, Y., Setio, A. A. A., et al. (2026). &quot;Deep learning-based pulmonary nodule risk assessment outperforms established malignancy risk scores in lung cancer screening.&quot; <i>Radiology Advances</i>. 3(1), umag003.'
+paperurl: "https://doi.org/10.1093/radadv/umag003"
 ---

@@ -7,4 +7,5 @@ date: 2018-04-01
 pubtype: journal
 venue: 'Physics in Medicine &amp; Biology'
 citation: 'Humpire-Mamani, G. E., Setio, A. A. A., Van Ginneken, B., &amp; Jacobs, C. (2018). &quot;Efficient organ localization using multi-label convolutional neural networks in thorax-abdomen CT scans.&quot; <i>Physics in Medicine &amp; Biology</i>. 63(8), 085003.'
+paperurl: "https://doi.org/10.1088/1361-6560/aab4b3"
 ---

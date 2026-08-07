@@ -7,4 +7,5 @@ date: 2021-11-01
 pubtype: journal
 venue: 'Radiology: Artificial Intelligence'
 citation: 'Jacobs, C., Setio, A. A. A., Scholten, E. T., et al. (2021). &quot;Deep learning for lung cancer detection on screening CT scans: results of a large-scale public competition and an observer study with 11 radiologists.&quot; <i>Radiology: Artificial Intelligence</i>. 3(6), e210027.'
+paperurl: "https://doi.org/10.1148/ryai.2021210027"
 ---

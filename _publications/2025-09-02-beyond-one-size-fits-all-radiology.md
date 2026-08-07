@@ -7,4 +7,5 @@ date: 2025-09-02
 pubtype: conference
 venue: 'International Workshop on Agentic AI for Medicine (MICCAI)'
 citation: 'van Sonsbeek, T., Setio, A. A. A., Lee, J. O., et al. (2025). &quot;Beyond One Size Fits All: Customization of Radiology Report Generation Methods.&quot; <i>International Workshop on Agentic AI for Medicine, MICCAI 2025</i>. pp. 259–268.'
+paperurl: "https://doi.org/10.1007/978-3-032-06004-4_26"
 ---

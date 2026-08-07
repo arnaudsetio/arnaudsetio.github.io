@@ -7,4 +7,5 @@ date: 2023-09-01
 pubtype: journal
 venue: 'Frontiers in Public Health'
 citation: 'Sarayar, R., Lestari, Y. D., Setio, A. A. A., &amp; Sitompul, R. (2023). &quot;Accuracy of artificial intelligence model for infectious keratitis classification: a systematic review and meta-analysis.&quot; <i>Frontiers in Public Health</i>. 11, 1239231.'
+paperurl: "https://doi.org/10.3389/fpubh.2023.1239231"
 ---

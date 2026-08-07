@@ -7,4 +7,5 @@ date: 2017-02-01
 pubtype: conference
 venue: 'SPIE Medical Imaging'
 citation: 'Mamani, G. E. H., Setio, A. A. A., van Ginneken, B., &amp; Jacobs, C. (2017). &quot;Organ detection in thorax abdomen CT using multi-label convolutional neural networks.&quot; <i>SPIE Medical Imaging 2017</i>. Vol. 10134.'
+paperurl: "https://doi.org/10.1117/12.2254349"
 ---
