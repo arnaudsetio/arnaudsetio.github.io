@@ -3,7 +3,7 @@ title: "Pulmonary nodules malignancy prediction in CT images"
 collection: portfolio
 order: 1
 short_title: "Nodule malignancy prediction"
-image: "/images/nodule_malignancy_example.jpg"
+image: "/images/nodule_malignancy_thumb.jpg"
 summary: "Deep learning for malignancy risk estimation of pulmonary nodules, validated against expert readers."
 excerpt: "Deep learning for malignancy risk estimation of pulmonary nodules, validated against expert readers."
 ---
@@ -11,14 +11,8 @@ excerpt: "Deep learning for malignancy risk estimation of pulmonary nodules, val
 Early stage lung cancer manifests itself as focal abnormalities in the lung called pulmonary nodules. The vast majority of nodules found in screening participants are eventually benign. Follow-up of benign nodules can lead to unnecessary imaging or invasive follow-up procedures. A data-driven model that can accurately predict nodule malignancy from CT data may improve management decisions and increase the effectiveness of lung cancer screening programs.
 
 <div class="figure-row">
-  <figure>
-    <img src="/images/nodule_malignancy_roc.jpg" alt="ROC curves comparing the deep learning algorithm with the PanCan 2b model and 11 clinicians on the DLCST cancer-enriched subset">
-    <figcaption>ROC analysis on a cancer-enriched subset of the Danish Lung Cancer Screening Trial (59 malignant, 118 size-matched benign nodules). The algorithm reached an AUC of 0.86 (95% CI: 0.80, 0.91), against 0.75 for the PanCan 2b risk model and 0.76–0.89 across 11 clinicians.</figcaption>
-  </figure>
-  <figure>
-    <img src="/images/nodule_malignancy_example.jpg" alt="Axial CT slice with an arrow marking a spiculated nodule, scored 0.99 by the algorithm and 0.97 by the clinicians">
-    <figcaption>An example nodule, assigned a malignancy score of 0.99 by the algorithm and 0.97 by the clinicians.</figcaption>
-  </figure>
+  <img src="/images/nodule_malignancy_roc.jpg" alt="ROC curves comparing the deep learning algorithm with the PanCan 2b model and 11 clinicians on the DLCST cancer-enriched subset">
+  <img src="/images/nodule_malignancy_example.jpg" alt="Axial CT slice with an arrow marking a spiculated nodule, scored 0.99 by the algorithm and 0.97 by the clinicians">
 </div>
 
 Within this project, we develop and validate a deep learning algorithm based on convolutional neural networks for pulmonary nodule malignancy prediction and to compare its performance against expert readers and an established multivariate prediction model. The results were summarized in my [PhD Thesis](https://hdl.handle.net/2066/191619). This study was further expanded by Kiran Venkadesh and was published in [Radiology](https://doi.org/10.1148/radiol.2021204433), and the approach was later benchmarked against established malignancy risk scores in a screening cohort in [Radiology Advances](https://doi.org/10.1093/radadv/umag003).
