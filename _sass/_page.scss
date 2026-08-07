@@ -52,7 +52,6 @@
 
   h2 {
     padding-bottom: 0.5em;
-    border-bottom: 1px solid $border-color;
   }
 
   p, li, dl {
@@ -73,7 +72,7 @@
   }
 
   a {
-    text-decoration: underline;
+    text-decoration: none;
 
     &:hover {
       text-decoration: underline;
