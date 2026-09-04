@@ -20,4 +20,4 @@ To improve performance on rare and difficult cases, we developed an active-learn
 
 1. E. J. Mortani Barbosa Jr. et al., “Deep learning-based pulmonary nodule risk assessment outperforms established malignancy risk scores in lung cancer screening,” *Radiology Advances*, 2026. [link](https://doi.org/10.1093/radadv/umag003)
 2. S. Liu et al., “No Surprises: Training robust lung nodule detection for low-dose CT scans by augmenting with adversarial attacks,” *IEEE Transactions on Medical Imaging*, 2021. [link](https://doi.org/10.1109/TMI.2020.3026261)
-3. Patents and patent applications on deep-learning methods for pulmonary nodule and medical-image analysis. [Google Patents](https://patents.google.com/?inventor=Arnaud+Arindra+Adiyoso+Setio)
+3. Patents and patent applications on deep-learning methods for pulmonary nodule and medical-image analysis. [Espacenet](https://worldwide.espacenet.com/searchResults?submitted=true&locale=en_EP&DB=EPODOC&ST=advanced&TI=&AB=&PN=&AP=&PR=&PD=&IN=Arnaud+Arindra+Adiyoso&CPC=&IC=&Submit=Search)
